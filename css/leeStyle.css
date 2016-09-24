@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 公共 */
+* {margin:0px; padding:0px; border:0px;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+html {-ms-touch-action: none;font-size:62.5%;}
+img {vertical-align: top;}
+input,select,textarea {border-radius:0;outline:none;}
+textarea {resize:none;}
+body{padding:0px;margin:0px; font-family: "微软雅黑"; font-size: 14px;}
+li {list-style:none;}
+a{color:#000; text-decoration:none;}
+.m_clear{zoom:1;}
+.m_clear:after{content:"";display:block;clear:both;}
+.m_porR {position: relative;}
+.m_porA {position: absolute;}
+.m_fl {float:left;}
+.m_fr {float:right;}
+.m_db {display: block;}
+.m_dn {display:none;}
+.m_oh {overflow:hidden;}
+.m_w100,.m_wrapper,.m_loadFont {width:100%;}
+.m_w50 {width:50%;}
+.m_auto {margin: 0 auto;}
+.m_tac {text-align:center;}
+.m_tar {text-align:right;}
+.m_ti {text-indent:2em;}
+.m_ti1 {text-indent:1em;}
+.m_bgn {background:none;}
+.m_o0 {opacity:0;}
+.m_fw {font-weight:bold;}
+.m_cfff {color:#fff;}
+.m_cRed {color: #ff8181;}
+.m_inpNoBg {-webkit-appearance:none;background:none;}
+.m_changeWord { line-height:0;font-size:0; overflow:hidden;color:rgba(255,255,255,0);}
+
+/*最宽480*/
+@media (min-width: 2048px) {
+	.m_wrapper {width:640px;margin: 0 auto;}
+}
+
+/*在这里*/
+.m_hereBox{
+  width: 572px;
+  padding: 0 34px;
+  height: 268px;
+}
